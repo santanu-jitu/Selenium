@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Framework_Santanu]">
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="doLogin" invocation-numbers="1 2 3 4 5 6 7 8"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+      <class name="testcases.ProductDetail">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ProductDetail -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="Search Item(failed)">
+    <classes>
+      <class name="testcases.ProductDetail">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ProductDetail -->
+      <class name="testcases.Search_Item">
+        <methods>
+          <include name="displayItem" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Search_Item -->
+    </classes>
+  </test> <!-- Search Item(failed) -->
+</suite> <!-- Failed suite [Framework_Santanu] -->

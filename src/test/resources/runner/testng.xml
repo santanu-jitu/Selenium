@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Framework_Santanu">
+    
+   
+    
+  
+  
+   <test name="Login Test">
+    
+    <classes>
+      <class name="testcases.LoginTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Search Item">
+    
+    <classes>
+      <class name="testcases.Search_Item"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Match Item">
+    
+    <classes>
+      <class name="testcases.ProductDetail"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->
